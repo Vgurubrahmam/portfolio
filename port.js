@@ -1,5 +1,5 @@
 const textContainer = document.getElementById('text-container');
-        const textToType = "Guru Bhrahmam";
+        const textToType = "Guru Brahmam";
         let index = 0;
 
         function typeText() {

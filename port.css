@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
 
+  
+
 .logo{
     color: #ffffff;
     font-size: 35px;
@@ -12,6 +14,9 @@
   } 
    
     
+a{
+    text-decoration: none;
+}
 
 
 
@@ -23,7 +28,7 @@
 
  .navbar {
     background-color:#da4167;
-    height:60px;
+   
     align-items: center;
 
 
@@ -34,12 +39,12 @@
     color:#ffffff;
     margin-right: 20px;
 }  
-  .bg-container{ 
+   .bg-container{ 
     background-color:black; 
     background-size: cover;
     height: 100vh;
       
-}  
+}   
 span{
     color:rgb(13, 12, 12);
 } 
@@ -54,7 +59,7 @@ span{
     background-position:center;
     display: flex;
     align-items: end;
-    padding: 90px 
+    padding: 90px ;
 }  
 
 
@@ -87,12 +92,17 @@ span{
     font-size: 30px;
     color: #0ef;
     text-decoration: none;
-    margin: 30px 35px 30px 0;
+    /* margin: 30px 35px 30px 0; */
+    margin-right: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
 } 
 .home-sci a:hover{
     background: #0ef;
     color: #081b29;
-    box-shadow: 0 0 20px #0ef
+    box-shadow: 0 0 20px #0ef;
+    transform: rotate(270deg);
 }
 .btn-box{
     display: inline-block;
@@ -130,6 +140,8 @@ span{
 }
 
 /* About Me */
+
+
 
 
 .bg-container {
@@ -213,7 +225,7 @@ span{
     background-color: #da4167;
     color: black;
     height: 90vh;
-    width: 100vw;
+    width: 100%;
     padding-left: 10px;
     padding-top: 30px;
 }
@@ -250,7 +262,7 @@ span{
 
 .bg-p {
     background-color: #da4167;
-    width: 100vw;
+    width: 100%;
     height: 95vh;
     margin-top: 2px;
     padding-top: 30px;
@@ -334,7 +346,7 @@ span{
 .profile-sk {
     background-color: #000000;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     padding-top: 50px;
 }
 
@@ -466,20 +478,22 @@ span{
 
 .footer{
     background-color: black;
-    width: 100vw;
+    width: 100%;
     height: 500px;
     padding: 60px;
     display: flex;
     padding-top: 100px;
     font-family: 'Young Serif', serif;
+   
 }
 .foot-1{
     /*background-color: chartreuse;*/
-    width: 50%;
+    width: 40%;
     height:350px ;
-    padding: 40px;
-    border: 5px solid rgb(7, 48, 48);
-    box-shadow: 0 0 10px #45474B;
+    padding: 30px;
+    /* border: 5px solid rgb(7, 48, 48); */
+    /* box-shadow: 0 0 10px #45474B; */
+    margin-left: 100px;
 }
 .foot-1:hover{
     box-shadow: 0 0 20px black;
@@ -509,13 +523,13 @@ span{
 .foot-4{
     /*background-color: blue;*/
     width: 90%;
-    height:30px ;
+    height:40px ;
     padding: 10px;
     display: flex;
     align-items: center;
     color: rgb(254, 251, 251);
 }
-.foot-5{
+/* .foot-5{
     background-color: rgb(233, 32, 240);
     width: 50%;
     height:40px ;
@@ -525,50 +539,55 @@ span{
     align-items: center;
     color: blue;
     justify-content: space-around;
-    align-items: center;
-}
+    align-items: center; 
+}*/
 .food-6{
     margin-top: 30px;
 }
 .foot-7{
-    /*background-color: #ba05a2;*/
-    width: 50%;
-    height: 350px;
+   
+    width: 100%;
+    height: 330px;
     display: flex;
     border: 5px solid rgb(7, 48, 48);
-    box-shadow: 0 0 10px #45474B;
+    /* box-shadow: 0 0 10px #45474B; */
     border-width: 0px;
+    align-items: center;
+   
 }
 .foot-7:hover{
-    box-shadow: 0 0 20px rgb(17, 146, 197);
+    /* box-shadow: 0 0 20px rgb(17, 146, 197); */
 }
 input{
     width: 400px;
+    height: 30px;
     background-color: #262626;
     color: #fff;
     border-width: 0px;
+    
 }
 .input:hover{
     border-radius: 5px;
 }
 .form{
-    padding: 48px;
+    
+    width: 500px;
+    
 }
 
 .button{
-    border: 3px solid rgb(2, 11, 11);
+    border: 3px solid #da4167;
     cursor: pointer;
     border-radius: 0px;
     font-size: 12px;
-    background-color:#ff597b;
+    background-color:#da4167;
     transition: .2s;
     color: rgb(254, 252, 252);
-    padding: 5px;
+    padding: 8px 25px;
     transition: .3s;
-    height: 35px;
-    width:auto;
-    margin-bottom: 30px;
-
+    letter-spacing: 2px;
+    
+    
 }
 .button:hover{
     background-color:#0ef;
@@ -597,18 +616,18 @@ input{
     
 }
 .button-2{
-border: 3px solid rgb(11, 12, 12);
+
 cursor: pointer;
 border-radius: 0px;
 font-size: 12px;
 background-color:#FF597B;
 transition: .2s;
 color: rgb(254, 252, 252);
-padding: 0px;
+padding: 10px 25px;
 transition: .3s;
-height: 30px;
-width:50px;
+letter-spacing: 2px;
 margin-top: 0px;
+border: 3px solid #da4167;
 
 
 }
@@ -616,3 +635,4 @@ margin-top: 0px;
     background-color:#0ef;
     color:#fff;
 }
+  
