@@ -556,7 +556,7 @@ span{
    
 }
 .foot-7:hover{
-    /* box-shadow: 0 0 20px rgb(17, 146, 197); */
+    box-shadow: 0 0 20px rgb(17, 146, 197);
 }
 input{
     width: 400px;
