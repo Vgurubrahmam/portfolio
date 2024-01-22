@@ -621,7 +621,7 @@ cursor: pointer;
 border-radius: 0px;
 font-size: 12px;
 background-color:#FF597B;
-transition: .2s;
+
 color: rgb(254, 252, 252);
 padding: 10px 25px;
 transition: .3s;
@@ -634,5 +634,6 @@ border: 3px solid #da4167;
 .button-2:hover{
     background-color:#0ef;
     color:#fff;
+    transition: .5s;
 }
   
